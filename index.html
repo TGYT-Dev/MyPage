@@ -10,23 +10,26 @@
 
     <body style="background-color:#1e1e2e">
 
-        <div class="square" id="MainTextBox"></div>
+        <div class="square" id="MainTextBox">
+            
+            <h1 style="font-family: Nunito, sans-serif;"></h1>
 
-            <style>
+        </div>
+
+        <style>
             .square {
-              width: 150px;
-              height: 100px;
-              background-color: #fab387;
+                width: 30vw;               /* 30% of viewport width */
+                height: 20vw;              /* proportional height */
+                background-color: #fab387;
+                color: #1e1e2e;
+                font-family: 'Nunito', sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 1vw;              /* scales with viewport */
+                margin: 2vw;
             }
-            </style>
-
-
-        <h1 style="font-family: 'Nunito', sans-serif;">
-        
-            Hi There!
-
-        </h1>
-
-    </body>
+        </style>
 
 </html>
